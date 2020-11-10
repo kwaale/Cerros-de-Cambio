@@ -7,7 +7,7 @@ import Personas from './Components/Personas.js';
 function App() {
   return (
     <div className="App">
-      <h1>Prueba App</h1>
+      <h1>Prueba App Knut</h1>
         <Personas/>
     </div>
   );
