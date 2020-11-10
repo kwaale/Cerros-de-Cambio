@@ -1,0 +1,11 @@
+.card-persona{
+    display: flex;
+    margin: 5px;
+    height: 180px;
+    width: 180px;
+    border: 2px solid blue;
+    border-radius: 8%;
+    flex-flow: column;
+    justify-content: center;
+    background: cadetblue;
+}
