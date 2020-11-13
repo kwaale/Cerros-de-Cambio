@@ -1,7 +1,7 @@
 import React from 'react';
 import './Persons.css';
 import foto from '../img/Foto.jpg';
-import montania from '../img/Montania.png';
+import montania from '../img/Logo.png';
 
 
 //Persona renderizado
