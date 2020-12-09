@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Work+Sans:wght@300&display=swap');
+
+//Variables
+$titulos: 'Montserrat', sans-serif;
+$contenido: 'Work Sans', sans-serif;
+$font-color: white;
+$colorbackground:#0e667e;
+
+.card-persona{
+    display: inline-flex;
+    margin: 5px;
+    width: 285px;
+    border-radius: 8%;
+    flex-flow: column;
+    justify-content: center;
+    background: $colorbackground;
+    padding: 20px;
+}
+.foto-perfil{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.nombre-perfil{
+    font-family: $titulos;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: medium;
+    margin-top: 18px;
+    margin-left: 14px;
+}
+.montania{
+    width: 69px;
+    height: 40px;
+}
+.cuerpos{
+    display: flex;
+    color: $font-color;
+    padding: 13px;
+}
+.data-persona{
+    font-family: $contenido;
+    font-size: small;
+    font-weight: 700;
+    display: block;
+    text-align: justify;
+    // text-transform: uppercase;
+}
+ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+li{
+    margin-left: 18px;
+}
