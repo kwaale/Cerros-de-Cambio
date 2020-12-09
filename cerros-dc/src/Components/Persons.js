@@ -3,10 +3,6 @@ import './Persons.scss';
 import foto from '../img/Foto.jpg';
 import montania from '../img/Logo.png';
 
-//Persona renderizado
-//https://blog.hostdime.com.co/como-usar-de-forma-facil-google-fonts-con-sass/
-//Fuente "Work Sans", sans-serif 
-//Monserrat (para los títulos)
 export default function Persons({ data }) {
     return (
         <div>
@@ -20,13 +16,14 @@ export default function Persons({ data }) {
                         <div className='cuerpos'>
                             <img className='foto-perfil' src={foto} alt='Foto Perfil' />
                             <div className='data-persona'>
-                                <ul>FECHA DE INICIO: {e.fechaInicio}</ul>
-                                <ul>BIRTHDAY: {e.birthday}</ul>
-                                <ul>HABILIDADES: {e.skills.map(skill => {
+                                <ul><label>FECHA DE INICIO:</label> {e.fechaInicio}</ul>
+                                <ul><label>FECHA DE NACIMIENTO:</label><br/> {e.birthday}</ul>
+                                <ul><label>HABILIDADES:</label><br/> {e.skills.map(skill => {
                                     return (<li key={skill.id}>{skill.name}</li>)
                                 })} </ul>
-                                <ul>FRASE: "Solo para visualizar" </ul>
+                                <ul><label>FRASE:</label><br/>{e.frase}</ul>
                             </div>
+                            
                         </div>
                     </div>
                 )

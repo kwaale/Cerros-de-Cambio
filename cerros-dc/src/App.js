@@ -18,6 +18,7 @@ const data = [{
   "locationCity": "Ciudad de Mexico",
   "profession": "Ingeniero en Software",
   "lastGrade": "Superior",
+  "frase": `“Solo para visualizar”`,
   "skills": [
     {
       id: "0",
@@ -47,13 +48,14 @@ const data = [{
 {
   "_id": "002",
   "name": "Anlly Baez",
-  "birthday": "02/10/1994",
-  "fechaInicio": "02/03/2030",
+  "birthday": "02/08/1997",
+  "fechaInicio": "02/10/2040",
   "originCountry": "Mexico",
   "originCity": "Ciudad de Mexico",
   "locationCity": "Ciudad de Mexico",
   "profession": "Ingeniero en Software",
   "lastGrade": "Superior",
+  "frase": `“siempre se parte de la solución no del problema”`,
   "skills": [
     {
       id: "0",
