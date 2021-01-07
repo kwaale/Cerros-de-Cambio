@@ -1,7 +1,7 @@
 import React from 'react';
 import './Persons.scss';
 import foto from '../img/Foto.jpg';
-import montania from '../img/Logo.png';
+import montania from '../img/Montania.png';
 
 export default function Persons({ data }) {
     return (
