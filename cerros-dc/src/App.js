@@ -1,15 +1,13 @@
 import './App.css';
 import React from 'react';
 import Persons from './Components/Persons.js';
+import dataTemporal from './dataTemporal/seeds';
 
 
 // dependencia que debes de agregar a la aplicacion react que generes https://storybook.js.org/
-fetch('URL')
-  .then(response => response.json())
-  .then(data => console.log(data));
-
 const data = [{
   "_id": "001",
+  "img":"https://live.staticflickr.com/65535/50801478796_96d21723cc_k.jpg",
   "name": "alexis herlanda",
   "birthday": "02/10/1994",
   "fechaInicio": "02/03/2030",
@@ -88,7 +86,7 @@ const data = [{
 function App() {
   return (
     <div className="App">
-      <Persons data={data} />
+      <Persons data={dataTemporal} />
     </div>
   );
 }
